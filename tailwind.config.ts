@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ['Montserrat'],
+      },
+      letterSpacing: {
+        'tight-custom': '0.2px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
